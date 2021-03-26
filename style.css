@@ -1,0 +1,42 @@
+table{
+    border-bottom: 2px solid #05c46b;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+#t01 {
+    width: 33%;
+}
+
+#t01 tr:nth-child(even){
+    background-color:white;
+}
+
+#t02 {
+    border-top-left-radius: 5px;
+}
+
+#t03 {
+    border-top-right-radius: 5px;
+}
+
+#t04 {
+    border: 1px solid  #d1ccc0;
+}
+
+tr:nth-child(odd){
+    background-color: #f7f1e3;
+    color: #05c46b;
+}
+
+#t01 th {
+    color: white;
+    background-color: #05c46b;
+    padding: 13px;
+    text-align: left;
+}
+
+td {
+    text-align: left;
+    padding: 13px;
+}
